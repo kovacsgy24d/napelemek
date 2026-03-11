@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="hu">
 
 <head>
+		<meta charset="UTF-8">
+		<title>Napelemes Rendszer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<script src="jquery.min.js"></script>
-	<script src="popper.min.js"></script>
-	<script src="bootstrap.min.js"></script>
+	<script src="napelem.js"></script>
+	<script src="napelem.css"></script>
 </head>
 
 <body>
@@ -26,7 +28,10 @@
 						<a class="nav-link" href="#elonyok">Előnyök</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#kalkulator">Kalkulátor</a>
+						<a class="nav-link" href="#napelemek">napelemek</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#kalkulátor">kalkulátor</a>
 					</li>
 				</ul>
 			</div>
@@ -45,12 +50,12 @@
 			<div class="row">
 				<div class="col-12 col-md-3 p-2">
 					<div class="p-3 bg-light h-100">
-						<p>Pozitív ökológiai lábnyom: a napelemes rendszer gyártásához használt energiát egy átlagos napelem 3-6 éven belül visszatermeli. Eközben a napelemes rendszerek átlagos tervezett életkora 25 év, ami biztosítja, hogy több energiát termel meg összesen, mint ami az előállításhoz szükséges.</p>
+						<p><span class="fk">Pozitív ökológiai lábnyom:</span class="fk"> a napelemes rendszer gyártásához használt energiát egy átlagos napelem 3-6 éven belül visszatermeli. Eközben a napelemes rendszerek átlagos tervezett életkora 25 év, ami biztosítja, hogy több energiát termel meg összesen, mint ami az előállításhoz szükséges.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-3 p-2 m">
 					<div class="p-3 bg-light h-100">
-						<p>Javítja a villamos hálózatok hatékonyságát: a napelemes rendszerek központi, vagy decentralizált módon is felépíthetők. Kis napelemes rendszerek a hálózatokon javíthatják a hálózat stabilitását. Ahol nincs villamos hálózat, vagy drága a kiépítése, ott a napelemes rendszer akkumulátorokkal is kiépíthető.</p>
+						<p><span class="fk">Javítja a villamos hálózatok hatékonyságát:</span class="fk"> a napelemes rendszerek központi, vagy decentralizált módon is felépíthetők. Kis napelemes rendszerek a hálózatokon javíthatják a hálózat stabilitását. Ahol nincs villamos hálózat, vagy drága a kiépítése, ott a napelemes rendszer akkumulátorokkal is kiépíthető.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-3 p-2">
@@ -90,9 +95,17 @@
 			<div class="col-12 col-md-4 p-2">
 				<!-- Hálózatra kapcsolás  -->
 				<section id="halozatraKapcsolas">
-					<div class="p-3 bg-light h-100">
-												
-					</div>
+				<div class="p-3 bg-light h-100">
+                 <h2>Hálózatra kapcsolás</h2>
+<p>A hálózatra kapcsolt napelemes rendszer felépítése és kapcsolódása:</p>
+<img src="mukodese.jpg" class="my-3 w-100" title="hálozáti kapcsolás" alt="hálózati kapcsolás"> 
+<ol>
+	 <li class="my-2">A napelemek egyenáramot termelnek</li>
+	 <li class="my-2">Az inverter az egyenáramot 230V-os váltakozó árammá alakítja</li>
+	 <li class="my-2">A kapcsolószekrényben csatlakozik a ház villamos rendszere és az inverter kimenete</li>
+	 <li class="my-2">A napelem által megtermelt energiát a ház elfogyasztja</li>
+	 <li class="my-2">Az oda-vissza mérő óra rögzíti az el nem fogyasztott, hálózatba visszatáplált áram és az áramszolgáltatótól átvett áram mennyiségét</li>
+ </ol>
 				</section>
 			</div>
 		</div>
